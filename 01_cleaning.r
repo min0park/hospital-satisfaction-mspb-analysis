@@ -2,8 +2,8 @@
 
 #1. reading the two CSV files (HCAHPS survey file and the Medicare Spending Per Beneficiary file)
 
-survey <- read.csv("/Users/amypark/Desktop/Toronto Metropolitan University (The Chang School of Continuing Education)/Data Analytics, Big Data, and Predictive Analytics Certificate/Winter 2025/CIND820 - Big Data Analytics Project/Datasets/Patient survey (HCAHPS) - Hospital.csv")
-spending <- read.csv("/Users/amypark/Desktop/Toronto Metropolitan University (The Chang School of Continuing Education)/Data Analytics, Big Data, and Predictive Analytics Certificate/Winter 2025/CIND820 - Big Data Analytics Project/Datasets/Medicare Spending Per Beneficiary_Hospital.csv")
+survey <- read.csv("HCAHPS_Hospital.csv")
+spending <- read.csv("MSPB_Hospital.csv")
 
 #2. Read the summary of the data
 
